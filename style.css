@@ -1,0 +1,33 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 250px;
+  background-color: #fff;
+}
+
+ul {
+  width: 250px;
+}
+
+.li {
+  width: 250px;
+  list-style: none;
+  height: 20px;
+  line-height: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.li:hover {
+  background-color: #eee;
+}
+
+.li:hover::after {
+  content: '点击复制';
+  width: 30px;
+  height: 20px;
+  font-size: 10px;
+  background-color: skyblue;
+  color: #fff;
+}

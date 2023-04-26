@@ -1,0 +1,11 @@
+{
+  "name": "Account Extension", 
+  "version": "1.0",
+  "description": "Extension For Copy!",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_title": "一键复制",
+    "default_icon": "/images/logo.png",
+    "default_popup": "popup.html"
+  }
+}
